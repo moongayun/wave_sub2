@@ -1,0 +1,312 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'KimjungchulGothic-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select * {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    list-style: none;
+    color: #333;
+}
+
+#wrap {
+    min-width: 1320px;
+    margin: 0 auto;
+}
+
+.header_wrap {
+    height: 1000px;
+    background: url(../images/main/scubadiving.jpg)no-repeat center;
+
+
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    background: url(../images/icon/line.png) no-repeat center bottom;
+    padding-bottom: 30px;
+
+}
+
+.inner_header {
+
+    width: 1320px;
+    height: 91px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    /* margin-left: 9px; */
+    padding-top: 20px;
+}
+
+.gnb {
+    position: absolute;
+    right: 0;
+    top: 50px;
+
+}
+
+.gnb li {
+    float: left;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.banner h1 {
+    font-size: 120px;
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+    font-family: 'LotteMartDream';
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.banner p {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 40px;
+    font-weight: bold;
+
+}
+
+.content {
+    font-family: 'LotteMartDream';
+}
+
+.dolphin {
+    height: 944px;
+    background: url(../images/main/dolphin.jpg) no-repeat center bottom;
+    color: #fff;
+
+}
+
+.dolphin_inner {
+    width: 1320px;
+    margin: 0px auto;
+    font-family: 'LotteMartDream';
+    font-size: 19px;
+    font-weight: 200px;
+    text-align: center;
+    padding-top: 330px;
+
+}
+
+.dolphin h1 {
+    font-size: 112px;
+
+}
+
+.dolphin p {
+    font-weight: bold;
+
+}
+
+.button1 {
+    padding-top: 35px;
+}
+
+.button2 {
+    padding-top: 40px;
+}
+
+.button3 {
+    padding-top: 35px;
+}
+
+.dolphin a {
+    font-size: 28px;
+    padding: 8px 40px;
+    border: 2px solid;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+
+.text_one {
+    padding-bottom: 9px;
+    padding-top: 44px;
+
+}
+
+.text_two {
+    padding-bottom: 9px;
+}
+
+.wave {
+    height: 944px;
+    background: url(../images/main/aquarium.jpg) no-repeat center bottom;
+    color: #fff;
+}
+
+.wave h1 {
+    font-size: 112px;
+}
+
+.wave_inner {
+    width: 1320px;
+    margin: 0px auto;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 330px;
+}
+
+.wave a {
+    font-size: 28px;
+    padding: 8px 40px;
+    border: 2px solid;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+
+}
+
+
+.pidding {
+    height: 944px;
+    background: url(../images/main/stingray.jpg) no-repeat center bottom;
+    color: #fff;
+
+}
+
+.pidding_inner {
+    width: 1320px;
+    margin: 0px auto;
+    font-family: 'LotteMartDream';
+    font-size: 19px;
+    font-weight: 200px;
+    text-align: center;
+    padding-top: 330px;
+}
+
+.text_one {
+    font-weight: bold;
+}
+
+.text_two {
+    font-weight: bold;
+}
+
+.text_three {
+    font-weight: bold;
+}
+
+.pidding h1 {
+    font-size: 112px;
+}
+
+.pidding a {
+    font-size: 28px;
+    padding: 8px 40px;
+    border: 2px solid;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+
+}
+
+
+#footer_wrap {
+    background-color: #000;
+
+}
+
+.footer {
+    margin: 0px auto;
+    width: 1100px;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    background: url(../images/logo/logo.png)no-repeat right 10px top 26px;
+    background-size: 17%;
+}
+
+.footer_gnd li {
+    margin-bottom: 10px;
+    left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    padding: 15px 30px 56px 0;
+
+}
+
+.footer_logo_two {
+    position: absolute;
+    right: 1px;
+    top: 150px;
+
+
+}
+
+.footer_logo_two li {
+    float: left;
+    padding: 6px;
+}
+
+.footer_add {
+    clear: both;
+    font-size: 14px;
+
+}
+
+.you {
+    margin-top: 4px;
+}
